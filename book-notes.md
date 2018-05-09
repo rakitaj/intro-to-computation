@@ -46,6 +46,16 @@ If looking for the answer using exhaustive enumeration, make sure the program wi
 
 Exhaustive enumeration is also known as brute force.
 
+The method a computer uses to find an answer can be very different from what we would do if we had to calculate it by hand.
+
+For the calculate square root programs, brute force works at first and then we need to refine our algorithm. A fast processor can't overcome an algorithm that isn't suited for the job.
+
+Binary numbers don't map 1 to 1 to decimal numbers. Thinking in decimal and working with binary numbers can cause issues. For example try:
+```python
+.1 + .2 == .3
+```
+Python uses an internal repreesntation called floating point to represent not integer numbers.
+
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
 
@@ -55,3 +65,4 @@ type(5)
 <type 'int'>
 ```
 
+For loops using the range(start, stop) statement have a default step of 1. You can change this by using the range(start, stop, step) statement.
