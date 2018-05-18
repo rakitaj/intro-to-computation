@@ -56,6 +56,22 @@ Binary numbers don't map 1 to 1 to decimal numbers. Thinking in decimal and work
 ```
 Python uses an internal repreesntation called floating point to represent not integer numbers.
 
+## Floating point
+Think of floating point as a pair of numbers. The first is the significant digits of the number (like chemistry if that analogy helps) and the second is the exponent multiplier.
+
+From the book an example in the decimal system (not binary) is the number **1.949** It can be represented by **(1949, -3)** which expands to **1949 x 10^-3** and is equal to **1.949**. If this number had 2 signifigant digits it would be **(19, -1)** would expand to **19 * 10^-1** and be equal to 1.9
+
+It's harded to figure out the binary equivilant. 
+
+## Polynomials
+The degree is the exponent, the degree of the polynomial is the largest exponent.
+Newton-Raphson aka Newton's method 
+
+# 4: Functions, scoping, and abstraction
+Functions allow us to change our programs from long sequences of instructions to small pieces of reusable and composable code. Along with if/else statements and while/for loops they are the fundamental building blocks of programs.
+
+Scoping is what allows us to call a function times with different values for the parameters. The parameters we call a function with have their values bound to that instance of the function so you can call the same function with a different set of values.
+
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
 

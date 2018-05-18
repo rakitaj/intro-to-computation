@@ -1,5 +1,6 @@
 # Class 03
 
+
 # Exercises
 ## Exercise 1
 Let *s* be a string of decimals separated by commas like
@@ -29,3 +30,6 @@ Optimize the function you generated for exercise 3. Good places to start are
 1. For my target number do I need to check it against every number?
 2. For my target number is there a limit after which I can stop checking?
 3. What algorithms can I use to determine primality? Feel free to research online, like you would for an issue while working :)
+
+## Exercise 5
+Implement the Newton-Raphson method found in section 3.5 of our book into Python code. The good news is the code is already provided for you 
