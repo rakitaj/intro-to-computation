@@ -2,12 +2,17 @@
 ## Course syllabus and tips
 
 This course will give you an overview of programming and assumes you have no experience. 
-
-## Class session 1 - Introduction
+## Class session 0 - Introduction
 Read after: Chapter 1 - Getting started
 Session topics:
+- Goal of this course
+- Is this course for you?
 - Dev environment setup 
 - Printing to the console aka "Hello, world!"
+
+## Class session 1 - Simple functions, syntax, and programming languages
+Read before: Nothing
+Session topics:
 - Functions, parameters, arguments, basic Python syntax
 - Programming lanuage characteristics
 
@@ -19,15 +24,17 @@ Session topics:
 - Break statement
 
 ## Class session 3
-Read before: Chapter 2 - Some Simple Numerical Programs
-
+Read before: Chapter 3 - Some Simple Numerical Programs
 Session topics:
 - Looping with **for**
-- Types and mypy
 - Casting variables
 - Techniques to solve problems
   - Exhaustive enumeration aka brute force
   - Bisection search aka eliminate half each iteration
+
+## Class session 4 - Functions in depth, scope
+Read before: Chapter 4 - Functions, scoping, and abstraction
+Session topics
 
 # Tips to succeed
 - If you can't figure out what a chunk of code is doing or why, try hand simulating it and then if possible comparing that result to what the computer produces.
