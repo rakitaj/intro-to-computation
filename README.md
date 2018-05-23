@@ -19,7 +19,7 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
-# Themes of the book 
+# Themes of the class
 - Systematic problem solving
 - The power of abstraction
 - Computation as a way of thinking about the world

@@ -36,5 +36,10 @@ Session topics:
 Read before: Chapter 4 - Functions, scoping, and abstraction
 Session topics
 
-# Tips to succeed
+# Tips
 - If you can't figure out what a chunk of code is doing or why, try hand simulating it and then if possible comparing that result to what the computer produces.
+
+# External problem sets
+[Hacker Rank - Problems of every time with a leaderboard](https://www.hackerrank.com)
+[Project Euler - Math intensive practice problems](https://projecteuler.net/)
+[Advent of Code - Two problems a day for each day in the month of December](http://adventofcode.com/)
