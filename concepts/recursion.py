@@ -14,6 +14,16 @@ class Recursive():
         else:
             return Recursive.fibonacci(n - 1) + Recursive.fibonacci(n - 2)
 
+    @staticmethod
+    def palindrome(string: str) -> bool:
+        if len(string) <= 1:
+            return True
+        else:
+            if string[0] == string[-1]:
+                return Recursive.palindrome(string[1:-1])
+            else:
+                return False
+
 class Iterative():
     
     @staticmethod

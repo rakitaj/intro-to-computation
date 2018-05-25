@@ -84,6 +84,11 @@ Functions provide decomposition and abstraction.
 ## Recursion
 For a recursive function there is a base case and the recursive case. You can have as many base cases as you need. For example in the Fibonacci sequence there are two.
 
+Great quote from the book about prblem solving and writing code
+> Once we went from the vague statement of a problem about bunnies to a set of recursive equations, the code almost wrote itself. Finding some kind of abstract way to express a solution to the problem at hand is very often the hardest step in building a useful program.
+
+
+
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
 

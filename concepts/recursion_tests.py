@@ -35,3 +35,17 @@ def test_factorial_parameterized(test_input, expected):
 def test_fibonacci(test_input, expected):
     assert Recursive.fibonacci(test_input) == expected
 
+@pytest.mark.parametrize("test_input,expected", [
+    ("", True),
+    ("a", True),
+    ("aa", True),
+    ("ab", False),
+    ("bob", True),
+    ("abc", False),
+    ("abba", True),
+    ("abcd", False),
+    ("radar", True),
+    ("apple", False)
+])
+def test_palindrome(test_input, expected):
+    assert Recursive.palindrome(test_input) == expected
