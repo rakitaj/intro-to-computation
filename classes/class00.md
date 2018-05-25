@@ -11,7 +11,7 @@ Software development is problem solving using a programming language. It's the g
 This course is for someone who either wants to learn computer science basics and how to program or someone who has been out of school for a long enough time to want a refresher that starts at the very beginning. If you're an experienced programmer it might be too slow paced for you, especially at the beginning.
 
 ## Dev environment setup
-Look at the README.md in the root of the repository.
+Look at the README.md in the root of the repository. Section **Dev environment setup**
 
 ## Who is this course for?
 Learn how to print to the console, when I first learned how to program, this is how I debugged all my programs. Tons of extra print statements.

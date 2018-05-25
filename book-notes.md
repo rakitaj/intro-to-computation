@@ -72,6 +72,8 @@ Functions allow us to change our programs from long sequences of instructions to
 
 Scoping is what allows us to call a function times with different values for the parameters. The parameters we call a function with have their values bound to that instance of the function so you can call the same function with a different set of values.
 
+Python has lexical scoping which means scope values 
+
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
 
