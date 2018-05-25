@@ -72,7 +72,17 @@ Functions allow us to change our programs from long sequences of instructions to
 
 Scoping is what allows us to call a function times with different values for the parameters. The parameters we call a function with have their values bound to that instance of the function so you can call the same function with a different set of values.
 
-Python has lexical scoping which means scope values 
+Python has lexical scoping which is "the meaning of an unqualified name can be completely determined by looking at the program text." In short, by reading the program and knowing its scoping rules you can determine the which variables a function will rely on.
+
+## Specifications
+Writing code which tests your *program code* is important. Over the long run it's faster than typing test cases into the Python prompt over and over, and it forces you to formalize your program by writing down test cases which it must pass. The act of writing test cases can make you consider edge cases and how you want your program to behave in response to certain imputs.
+
+Functions provide decomposition and abstraction.
+- **Decomposition** - Functions which are small and may be repeated used, or reused in other places.
+- **Abstraction** - Hides detail, allows us to use a function as if it were a black box. After we write (and test) **def square(x):** we don't need to worry about or remember the implementation. This frees our mind to work on other problems. The abstraction has to be useful to both the creator and user.
+
+## Recursion
+For a recursive function there is a base case and the recursive case.
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
