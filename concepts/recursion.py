@@ -1,6 +1,5 @@
 class Recursive():
         
-    # Recursive implementation of factorial
     @staticmethod
     def factorial(n: int) -> int:
         if n == 0:
@@ -8,9 +7,15 @@ class Recursive():
         else:
             return n * Recursive.factorial(n - 1)
 
+    @staticmethod
+    def fibonacci(n: int) -> int:
+        if n == 0 or n == 1:
+            return 1
+        else:
+            return Recursive.fibonacci(n - 1) + Recursive.fibonacci(n - 2)
+
 class Iterative():
     
-    # Iterative implementation of factorial
     @staticmethod
     def factorial(n: int) -> int:
         result = 1
