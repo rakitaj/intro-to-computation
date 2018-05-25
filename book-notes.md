@@ -82,7 +82,7 @@ Functions provide decomposition and abstraction.
 - **Abstraction** - Hides detail, allows us to use a function as if it were a black box. After we write (and test) **def square(x):** we don't need to worry about or remember the implementation. This frees our mind to work on other problems. The abstraction has to be useful to both the creator and user.
 
 ## Recursion
-For a recursive function there is a base case and the recursive case.
+For a recursive function there is a base case and the recursive case. You can have as many base cases as you need. For example in the Fibonacci sequence there are two.
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
