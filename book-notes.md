@@ -87,6 +87,13 @@ For a recursive function there is a base case and the recursive case. You can ha
 Great quote from the book about prblem solving and writing code
 > Once we went from the vague statement of a problem about bunnies to a set of recursive equations, the code almost wrote itself. Finding some kind of abstract way to express a solution to the problem at hand is very often the hardest step in building a useful program.
 
+---
+
+A module is another python file, it's a good way of organizing code. Each module has its scope, it can contains functions and classes with, potentially, the same name as your own file. Keep this in mind and be careful about importing everything from a module .
+
+Python provides a built-in set of function to open, read, and write files. Remember to close a file when finished writing to it.
+
+# 5: Structured types, mutability, and higher-order functions
 
 
 # Python cheat sheet
