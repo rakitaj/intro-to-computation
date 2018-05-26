@@ -4,7 +4,8 @@
 This course will give you an overview of programming and assumes you have no experience. 
 ## Class session 0 - Introduction
 Read after: Chapter 1 - Getting started
-Session topics:
+
+Session topics:  
 - Goal of this course
 - Is this course for you?
 - Dev environment setup 
@@ -12,11 +13,13 @@ Session topics:
 
 ## Class session 1 - Simple functions, syntax, and programming languages
 Read before: Nothing
+
 Session topics:
 - Functions, parameters, arguments, basic Python syntax
 
 ## Class session 2
 Read before: Chapter 2 - Introduction to Python
+
 Session topics:
 - Conditionals **if/else**
 - Looping with **while**
@@ -24,6 +27,7 @@ Session topics:
 
 ## Class session 3
 Read before: Chapter 3 - Some Simple Numerical Programs
+
 Session topics:
 - Looping with **for**
 - Casting variables
@@ -33,7 +37,11 @@ Session topics:
 
 ## Class session 4 - Functions in depth, scope
 Read before: Chapter 4 - Functions, scoping, and abstraction
-Session topics
+
+Session topics:
+- More about functions
+- Scope
+- Searching for the right abstraction
 
 # Tips
 - If you can't figure out what a chunk of code is doing or why, try hand simulating it and then if possible comparing that result to what the computer produces.
