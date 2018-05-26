@@ -94,7 +94,45 @@ A module is another python file, it's a good way of organizing code. Each module
 Python provides a built-in set of function to open, read, and write files. Remember to close a file when finished writing to it.
 
 # 5: Structured types, mutability, and higher-order functions
+*int* and *float* are scalar types. A scalar type is one that has no accessible internal structure. In comparison, str is a structured (non-scalar) type. 
 
+Know the difference between typle, dictionary, list, and range (which is an enumeration). One cool thing about Python is a for statement can be used to iterate over these objects.
+
+Lists are mutable, tuples are immutable.
+
+Range is the trickiest, it's for a sequence of integers like [1, 2, 3, 4, ...] it can count "backwards" as well as in increments different from 1.
+
+Multiple assignment can bind multiple variables to a function that returns multiple values. The amount of values returned needs to be known ahead of time.
+```python
+def x_and_y():
+    return (3, 4)
+
+x, y = x_and_y()
+# x = 3 and y = 4
+```
+
+Value vs object equality is tricky, object equality tests to see if an object is in the same location of memory.
+
+Don't mutate (add/remote/change) values in a list in a loop. The internal pointer keeping track of the index in the list can end up being too far ahead or behind.
+
+## Functions as objects
+Functions can be passed as a parameter just like any other object or value. When using a function as an argument it's a style of coding called **higher-order programming**.
+
+Take a look at the Python built-in function map for an easy way to apply a function to all elements of a collection.
+
+## Lambdas
+A lambda function is a function that is not bound to a name.
+```python
+lambda x, y: x + y
+# Returns the sum of both x and y.
+```
+---
+
+Dictionaries, or dicts for short, are incredibly useful unordered sets of key/value pairs. You index into them using a key value instead of a positional index.
+
+Each key maps to a value. The lookup time is what makes dicts unique, it takes a constant amount of time to get the value for any key, unlike a list where you might need to traverse the whole thing to find a value at the end.
+
+# 6: Testing and debugging
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
