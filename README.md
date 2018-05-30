@@ -17,7 +17,7 @@ Read before: Nothing
 Session topics:
 - Functions, parameters, arguments, basic Python syntax
 
-## Class session 2
+## Class session 2 - Conditionals, looping
 Read before: Chapter 2 - Introduction to Python
 
 Session topics:
@@ -25,7 +25,7 @@ Session topics:
 - Looping with **while**
 - Break statement
 
-## Class session 3
+## Class session 3 - More looping, problem solving techniques
 Read before: Chapter 3 - Some Simple Numerical Programs
 
 Session topics:
@@ -41,7 +41,14 @@ Read before: Chapter 4 - Functions, scoping, and abstraction
 Session topics:
 - More about functions
 - Scope
-- Searching for the right abstraction
+- Finding the right abstraction
+
+## Class session 5 - Container types, higher-order functions
+Read before: Chapter 5 - Structured types, mutability, and higher-order functions
+
+Session topics:
+- Lists, dictionaries, tuples
+- Higher-order functions
 
 # Tips
 - If you can't figure out what a chunk of code is doing or why, try hand simulating it and then if possible comparing that result to what the computer produces.

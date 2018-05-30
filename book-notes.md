@@ -138,6 +138,10 @@ Dictionaries, or dicts for short, are incredibly useful unordered sets of key/va
 Each key maps to a value. The lookup time is what makes dicts unique, it takes a constant amount of time to get the value for any key, unlike a list where you might need to traverse the whole thing to find a value at the end.
 
 # 6: Testing and debugging
+**Testing** - Running a program to determine if it is behaving like you expect
+**Debugging** - Fixing a program you know is not running correctly
+
+
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**

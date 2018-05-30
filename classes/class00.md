@@ -15,4 +15,11 @@ Look at the README.md in the root of the repository. Section **Dev environment s
 
 ## Who is this course for?
 Learn how to print to the console, when I first learned how to program, this is how I debugged all my programs. Tons of extra print statements.
-- Write "Hello, world!" to the console.
+
+# Exercises
+## Exercise 1
+Write "Hello, world!" to the console.
+
+## Exercise 2 - Harder
+1. Write a function that returns the value "Hello, world!"
+2. Write a function to test it using the Pytest framework.
