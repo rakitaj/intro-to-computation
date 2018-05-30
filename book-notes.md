@@ -87,6 +87,11 @@ For a recursive function there is a base case and the recursive case. You can ha
 Great quote from the book about prblem solving and writing code
 > Once we went from the vague statement of a problem about bunnies to a set of recursive equations, the code almost wrote itself. Finding some kind of abstract way to express a solution to the problem at hand is very often the hardest step in building a useful program.
 
+## Global variables
+Global variables are helpful when you need to communicate outside of a function or class, or span many of them. Examples of this are keeping track of the number of times a function has executed, or the classic example of a logger.
+
+The issue with global variables is that anything can change their values, the changes are not limited to the scope of the code you're looking at. A new team being used for this is non-local reasoning, meaning you need to understand what is happening in another part of the codebase which is potentially unrelated to the one you are looking at.
+
 ---
 
 A module is another python file, it's a good way of organizing code. Each module has its scope, it can contains functions and classes with, potentially, the same name as your own file. Keep this in mind and be careful about importing everything from a module .

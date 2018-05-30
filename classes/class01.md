@@ -4,12 +4,12 @@ Functions are the building blocks of abstraction, and abstraction is key to buil
 # Exercises
 ## Exercise 1
 1. Write a function that squares the number you pass in.
-2. Write a function that cubes the number you paass in.
+2. Write a function that cubes the number you pass in.
 
 What would happen if a function called **def square(x)** actually added one to the number and returned it?
 
 ## Exercise 2
-1. Write a function that sums up all of its parameters
+1. Write a function that returns the sum of its parameters
 2. Write a function that concatenates all of its string parameters
 
 ## Exercise 3 - Harder
