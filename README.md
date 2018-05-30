@@ -1,7 +1,13 @@
 # Introduction to Programming & Computer Science
-## Course syllabus and tips
+## Course syllabus
 
-This course will give you an overview of programming and assumes you have no experience. 
+# Themes of the class
+- Systematic problem solving
+- The power of abstraction
+- Computation as a way of thinking about the world
+
+This course will give you an overview of programming and assumes you have no experience.
+
 ## Class session 0 - Introduction
 Read after: Chapter 1 - Getting started
 
@@ -75,8 +81,9 @@ py -m venv .venv
 pip install -r requirements.txt
 ```
 
-# Themes of the class
-- Systematic problem solving
-- The power of abstraction
-- Computation as a way of thinking about the world
-
+# Using pytest
+1. Activate the virtual environment
+2. Make sure your tests adhere to the pytest naming conventions
+3. Run pytest
+  - *pytest myfilename.py* for a specific file of tests
+  - *pytest .* to run all discoverable tests in that directory

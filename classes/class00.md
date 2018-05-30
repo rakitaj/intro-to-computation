@@ -13,13 +13,30 @@ This course is for someone who either wants to learn computer science basics and
 ## Dev environment setup
 Look at the README.md in the root of the repository. Section **Dev environment setup**
 
-## Who is this course for?
-Learn how to print to the console, when I first learned how to program, this is how I debugged all my programs. Tons of extra print statements.
+## What did I just do?
+At a very high level, you installed Python, created a virtual environment for Python in a certain location, and then installed all of the course's dependencies into that location.
+
+Using venv to create a virtual environment, and pip to install packages from a requirements file might feel a little overwhelming at first, and it is, but part of software development is knowing your operating system, your environment, and your programming language and its tools. All of this combined knowledge is what we need to actually do our job.
+
+### What is venv?
+Venv is a tool which create an independent Python installation, along with all of its included code, in the directory you specify. This makes it easy for different Python projects to have their own set of packages, and not interfere with each other.
+
+If you didn't use a virtual environment of some sort, the packages get installed to the global instance of Python. Being installed in the global instance of Python makes it much harder to have multiple projects on the same machine. It's a good practice to use a separate virtual environment for each project.
+
+### What is requirements.txt?
+This is a list of all the packages you need without versions specified. It's convenient because with one command *pip install -r requirements.txt* you can install all packages at the same time. If this list is kept up to date it makes new developers setup for the project much easier. Explicit dependencies and they are all in one place.
+
+### What are mypy and pylint?
+They are tools to help you write bug-free and correct Python. Look up more information on their websites if interested.
+
+### What is pytest?
+Pytest is our unit testing framework of choice. It makes test writing easy with auto discovery of tests that conform to a naming pattern, and it uses the included assert statement.
+
+If you're ambitious, you can start writing tests now or if you want to wait testing is covered in depth in class 6.
 
 # Exercises
 ## Exercise 1
 Write "Hello, world!" to the console.
 
-## Exercise 2 - Harder
-1. Write a function that returns the value "Hello, world!"
-2. Write a function to test it using the Pytest framework.
+## Exercise 2
+Look up the documentation for pytest, then rewrite exercise 1 so you can test it. The best route is to use a function, and check the return value.
