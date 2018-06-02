@@ -163,9 +163,21 @@ Integration testing - test the whole program. This is much harder because the te
 
 Stubs - When you substitute part of a program for a small one that you write with pre-defined behavior. Use for easy testing if your program has to talk to external hardware or other dependencies like that.
 
-Automated tests - 
----
+Automated tests - Tests should be run by a test driver or test harness. These automatically set up your program environment and run the test cases against the code, collecting the results. Testing is not done by typing input into the console and observing output.
 
+## Debugging
+Overt -> Covert bugs
+Persistent -> Intermittent
+
+Two schools of thought
+1. Print statements and tests are the best form of debugger
+2. Python debuggers built into IDEs are the best
+
+Debugging is a search process and you want to divide and conqure. Each experiment (aka change) you run should reduce the problem space.
+
+**Section 6.2.3 has a great list of common Python mistakes.**
+
+# 7: Exceptions and assertions
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
