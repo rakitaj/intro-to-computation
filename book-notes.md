@@ -141,6 +141,30 @@ Each key maps to a value. The lookup time is what makes dicts unique, it takes a
 **Testing** - Running a program to determine if it is behaving like you expect
 **Debugging** - Fixing a program you know is not running correctly
 
+First step is correct syntax - then the program will run. You still can have errors even if it runs.
+
+Testing on all values is usually impossible so we need to pick a set of useful values to test against. Think about boundaries and input values that are tricky.
+
+For a numerical function examples are: 
+- 0, -1, +1 
+- Negative infinity (or the largest negative number)
+- Positive infinity
+- -.1, +.1
+- An irrational number like 1/3
+- There is a good chart in this chapter of the book of other examples
+
+Glass-box testing (haven't heard this term before) - write tests while intentionally hitting many code paths, you have knowledge of the code
+Black-box testing - write tests without knowledge of the underlying code. Typically test to a specification
+
+## Testing vocabulary
+Unit testing - test a specific unit of code for intended behavior. This unit can be a function or something larger if needed. Usually straightforward to write because the behavior of one unit is easy to understand and reason about.
+
+Integration testing - test the whole program. This is much harder because the tests can be multi-stage, long running, and a whole program can have hard to test behavior.
+
+Stubs - When you substitute part of a program for a small one that you write with pre-defined behavior. Use for easy testing if your program has to talk to external hardware or other dependencies like that.
+
+Automated tests - 
+---
 
 
 # Python cheat sheet
