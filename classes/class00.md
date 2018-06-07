@@ -36,7 +36,4 @@ If you're ambitious, you can start writing tests now or if you want to wait test
 
 # Exercises
 ## Exercise 1
-Write "Hello, world!" to the console.
-
-## Exercise 2
-Look up the documentation for pytest, then rewrite exercise 1 so you can test it. The best route is to use a function, and check the return value.
+Print "Hello, world!" to the console.

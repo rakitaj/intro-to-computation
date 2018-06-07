@@ -178,6 +178,34 @@ Debugging is a search process and you want to divide and conqure. Each experimen
 **Section 6.2.3 has a great list of common Python mistakes.**
 
 # 7: Exceptions and assertions
+Exceptions aren't exceptional, they cover siuations like IndexOutOfRange, InvalidType, and more. 
+
+Polymorphic functions work for arguments of many different types. The example in the book is the read_val function.
+
+Assert providers programmers with an easy way of confirming the state of their program. If an assertion fails, an exception will be thrown. Assertions are also used in our testing library pytest to declare test conditions.
+
+# 8: Classes and object-oriented programming
+**This is the last major topic related to programming in Python (for this book)!!**
+
+Object-oriented programming, abbreviated OOP, is when you embrace the idea that objects are collections of data and methods that act on that data.
+
+If a function is what allows the end user to define new, useful, functions which are not included with the language, a class is what allows a user to define new types that are not included in the language.
+
+One of the main goals when creating a type is to represent a domain conecpt. When you find the right abstractions for your data, complexity melts away.
+
+**Class** - A container for data and functions that act on that data. The functions inside the class are called methods. A class is a blueprint for creating instances of itself. There can be multiple instances of any class alive at the same time.
+
+**Method** - when a function is defined within a class it is called a method. These can be invoked using dot notation.
+
+## Python's version of OOP
+When you define a class and methods on that class, the methods must have a first parameter which represents the object passed to them. By convention the parameter is called self.
+
+```python
+class Ingredient(object):
+
+    def __init__(self, name):
+        self.name = name
+```
 
 # Python cheat sheet
 **In Python whitespace is important!! It's part of the syntax. Bad whitespace can and will cause a program to not execute.**
@@ -187,5 +215,7 @@ Get the type of the object.
 type(5)
 <type 'int'>
 ```
+
+Represent *not a number* by using *float("NaN")*. This can be used when dealing with a divide by 0 error.
 
 For loops using the range(start, stop) statement have a default step of 1. You can change this by using the range(start, stop, step) statement.

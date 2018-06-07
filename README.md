@@ -18,10 +18,12 @@ Session topics:
 - Printing to the console aka "Hello, world!"
 
 ## Class session 1 - Simple functions, syntax, and programming languages
-Read before: Nothing
+Read before: Chapter 6 - Testing and Debugging
 
 Session topics:
 - Functions, parameters, arguments, basic Python syntax
+- Testing
+- Debugging
 
 ## Class session 2 - Conditionals, looping
 Read before: Chapter 2 - Introduction to Python
